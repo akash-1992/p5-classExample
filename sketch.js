@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(256, 384);
+  createCanvas(windowWidth, windowHeight);
   // try different sample
   sample = dragons;
   
